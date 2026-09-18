@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-// creamos el puntero para escribir el archivo y  lo arios n modo escritura
+// creamos el puntero para escribir el archivo y  lo abrios en modo escritura
     FILE *escritura = fopen ("inventario.txt", "w");
 
     // verificamos que exista el archivo para poder escribir en el.
